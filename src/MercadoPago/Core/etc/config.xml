@@ -62,5 +62,14 @@
             </mercadopago_customticket>
 
         </payment>
-    </default>
+           
+	    <dev>
+                <js>
+                <minify_exclude>
+                javascript/analytics
+                </minify_exclude>
+                </js>
+          </dev>
+	    
+	</default>
 </config>
